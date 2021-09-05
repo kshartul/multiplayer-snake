@@ -1,0 +1,10 @@
+version: '2'
+services:
+  snake:
+    image: 'shartul/snake'
+    environment:
+      - "PORT:3000"
+    ports:
+      - "82:3000"
+    volumes:
+      - ./:/app
